@@ -1,0 +1,28 @@
+/* Apply basic styles to the table */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* Style table header cells */
+.data-table th {
+  background-color: #cc8383;
+  font-weight: bold;
+  border: 1px solid #dddddd;
+  padding: 10px;
+  
+  text-align: left;
+}
+
+/* Style table data cells */
+.data-table td {
+  border: 1px solid #b9abab;
+  padding: 8px;
+}
+
+/* Style alternate rows with different background color */
+.data-table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
